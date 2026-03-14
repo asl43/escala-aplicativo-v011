@@ -1136,9 +1136,9 @@ body,main,.topbar,.bottom-nav,.card,.modal,.scard{transition:background-color .3
       <span class="bkarr" style="color:var(--danger);font-size:16px">›</span>
     </button>
   </div>
-  <!-- Botão admin — toque 5x para abrir painel -->
-  <div style="text-align:center;padding:10px 0 6px">
-    <button id="adminTrigger" onclick="adminToque()" style="background:none;border:1px solid var(--border);color:var(--text2);font-size:11px;font-family:var(--mono);padding:5px 14px;border-radius:20px;cursor:pointer;transition:all .2s;opacity:.5">v5.1 · admin</button>
+  <!-- Botão admin oculto — toque 5x na versão para abrir -->
+  <div style="text-align:center;padding:8px 0 4px">
+    <button class="btn-admin-hidden" id="adminTrigger" onclick="adminToque()">v5.1</button>
   </div>
 </div>
 
@@ -1678,9 +1678,9 @@ function agendarNotif(){
 
 // ===== FREEMIUM =====
 // ─── CONFIGURAÇÕES — altere aqui ───────────────────────────────────────────
-const PIX_KEY        = 'SEU_PIX_AQUI@email.com';   // sua chave Pix
-const SEU_WHATSAPP   = '5592900000000';             // seu número com DDI+DDD, sem espaço
-const ADMIN_SENHA    = 'admin123';                  // senha do painel admin
+const PIX_KEY        = '179fb97a-53cc-4515-9c34-a945f60e2eb6';   // sua chave Pix
+const SEU_WHATSAPP   = '5592993216959';             // seu número com DDI+DDD, sem espaço
+const ADMIN_SENHA    = '******';                  // senha do painel admin
 // ────────────────────────────────────────────────────────────────────────────
 
 const LIMITE_FREE = 1;
